@@ -16,6 +16,10 @@ const settings = {
             [
               "Home",
               "/"
+            ],
+            [
+              "About",
+              "/blog/about/"
             ]
           ],
           "featured": {
