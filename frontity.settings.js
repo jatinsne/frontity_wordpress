@@ -2,8 +2,9 @@ const settings = {
   "name": "blog",
   "state": {
     "frontity": {
-      "url": "https://blog.jatinunmatch.com",
+      "url": "https://jatinunmatch.com/blog/",
       "title": "JatinUnMatch Blog",
+      "description": "A React powered WordPress Blog"
     }
   },
   "packages": [
@@ -15,10 +16,6 @@ const settings = {
             [
               "Home",
               "/"
-            ],
-            [
-              "About",
-              "/about/"
             ]
           ],
           "featured": {
@@ -32,7 +29,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://blog.jatinunmatch.com/main"
+          "url": "https://jatinunmatch.com/blog/"
         }
       }
     },
